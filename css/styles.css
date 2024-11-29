@@ -107,6 +107,13 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.benefits-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 .p-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -117,7 +124,10 @@ button {
 .our-team {
   background-color: #f4f4fd;
 }
-.our-team {
+.our-team-list {
+  background-color: #ffffff;
+}
+.ourteam-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -139,6 +149,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 .our-portfolio-title {
   font-size: 36px;
@@ -156,7 +167,7 @@ button {
   color: #2e2f42;
 }
 .portfolio-info {
-  line-height: 1.5 для;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .footer {
@@ -177,5 +188,5 @@ button {
   letter-spacing: 0.02em;
 }
 .footer-studio {
-  color: #fff;
+  color: #f4f4fd;
 }
