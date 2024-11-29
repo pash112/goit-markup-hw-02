@@ -4,21 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,400;family=Roboto:ital,wght@0,400;0,500;0,700;0,400;1,500;1,700;display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+    <!-- #region-header -->
+    <header class="header-page">
+      <nav class="nav-page">
+        <a class="logo" href="./index.html"
+          ><span class="web">Web</span><span class="studio">Studio</span></a
+        >
+        <ul class="nav-header-list">
+          <li class="nav-item">
+            <a class="nav-item-link" href="./index.html">Studio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="#">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address>
@@ -32,12 +53,15 @@
         </ul>
       </address>
     </header>
+    <!-- #andregion-header -->
     <main>
       <!-- Hero -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-btn" type="button">Order Service</button>
       </section>
+      <!--endHero -->
+      <!-- benefits -->
       <section>
         <h2>benefits</h2>
         <ul>
@@ -184,7 +208,7 @@
     </main>
     <!-- footer -->
     <footer>
-      <a href="./index.html">WebStudio</a>
+      <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
