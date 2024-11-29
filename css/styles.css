@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -20,17 +21,15 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-}
-.studio {
-  color: black;
-}
-.web {
   color: #4d5ae5;
 }
+.studio {
+  color: #2e2f42;
+}
+
 .nav-header-list {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -50,9 +49,14 @@ button {
   color: #2e2f42;
 }
 .nav-item-link:hover,
-.nav-item-link:hover {
+.nav-item-link:focus {
   color: #404bbf;
 }
+
+.address {
+  font-style: normal;
+}
+
 /* #andregion-header */
 
 /* hero */
