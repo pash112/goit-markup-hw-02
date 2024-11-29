@@ -97,3 +97,65 @@ button {
   background: #404bbf;
 }
 /*endHero */
+
+/* benefits */
+
+.benefits-titel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.p-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* endbenefits */
+
+/* ourteam */
+.our-team {
+  background-color: #f4f4fd;
+}
+.our-team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.img-list-item {
+  background-color: #ffffff;
+}
+.list-item-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.p-info {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.our-portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.portfolio-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-info {
+  line-height: 1.5 для;
+  letter-spacing: 0.02em;
+}
